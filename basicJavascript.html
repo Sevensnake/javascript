@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Basic Javascript</title>
+    </head>
+    <body>
+        <p style="margin:0 auto; text-align: center;"><a href="variables.html" style="font-size: 1em">Variable page</a>
+        </p>
+        <!-- Basic Confirm and Alert -->
+        <script>
+            confirm("Do you want to Leave?");
+        </script>
+        <button></button>
+        <!-- alert user if ok then ok else it will alert cancel -->
+        <script>
+            var c = confirm("OK or Cancel?");
+            if (c) {
+                alert("you pressed \"OK\"");
+            } else {
+                alert("You pressed Cancel");
+            }
+        </script>
+<!-- prompts  prompt()   #### Doesn't matter defaults in text box. ("How old are you?", "Doesn't Matter");  -->
+<script> 
+var p = prompt("How old are you?", "");                      
+  if (p) {
+      alert(p + " is your age");
+  } else {
+      alert("No Input  was typed");
+   
+  }
+</script>
+    </body>
+</html>
